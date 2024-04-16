@@ -1,0 +1,125 @@
+{
+    "documents": [
+        {
+            "id": "id__1777",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0,
+                "neutral": 0,
+                "negative": 1
+            },
+            "sentences": [
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.37,
+                        "neutral": 0.62,
+                        "negative": 0.01
+                    },
+                    "offset": 0,
+                    "length": 61,
+                    "text": "Chuveiro quente, limpeza das roupas de cama e banho e preço.  ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 61,
+                    "length": 143,
+                    "text": "Localização distante dos pontos turísticos, apesar do preço econômico da hospedagem, não vale a pena, pois o uber dava em torno de 20 a 30,00. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.05,
+                        "neutral": 0.8,
+                        "negative": 0.15
+                    },
+                    "offset": 204,
+                    "length": 27,
+                    "text": "Distante a pé do shopping. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 231,
+                    "length": 99,
+                    "text": "Espaço apertado, muita gambiarra no chuveiro, móveis com cheiro ruim, no frio nenhuma toalha seca! ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 232,
+                            "length": 6,
+                            "text": "Espaço",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/3/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 239,
+                            "length": 8,
+                            "text": "apertado",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.3,
+                        "neutral": 0.66,
+                        "negative": 0.04
+                    },
+                    "offset": 330,
+                    "length": 21,
+                    "text": "Entrada por um beco! ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.3,
+                        "neutral": 0.68,
+                        "negative": 0.01
+                    },
+                    "offset": 351,
+                    "length": 38,
+                    "text": "As conversas dos vizinhos são ouvidas!",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}

@@ -1,0 +1,170 @@
+{
+    "documents": [
+        {
+            "id": "id__2008",
+            "sentiment": "positive",
+            "confidenceScores": {
+                "positive": 0.76,
+                "neutral": 0.22,
+                "negative": 0.02
+            },
+            "sentences": [
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.69,
+                        "neutral": 0.31,
+                        "negative": 0
+                    },
+                    "offset": 0,
+                    "length": 18,
+                    "text": "Cozinha completa. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.92,
+                                "negative": 0.08
+                            },
+                            "offset": 8,
+                            "length": 8,
+                            "text": "completa",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.92,
+                                "negative": 0.08
+                            },
+                            "offset": 0,
+                            "length": 7,
+                            "text": "Cozinha",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.84,
+                        "neutral": 0.12,
+                        "negative": 0.04
+                    },
+                    "offset": 18,
+                    "length": 29,
+                    "text": "Anfitrião bastante solícito. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.29,
+                                "negative": 0.71
+                            },
+                            "offset": 18,
+                            "length": 9,
+                            "text": "Anfitrião",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.29,
+                                "negative": 0.71
+                            },
+                            "offset": 37,
+                            "length": 8,
+                            "text": "solícito",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 1,
+                        "negative": 0
+                    },
+                    "offset": 47,
+                    "length": 32,
+                    "text": "Tive que comprar um ventilador. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.91,
+                        "negative": 0.09
+                    },
+                    "offset": 79,
+                    "length": 90,
+                    "text": "O banheiro tem um box que a água empossa do lado de fora e o chuveiro não para de pingar. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.05,
+                        "neutral": 0.95,
+                        "negative": 0
+                    },
+                    "offset": 169,
+                    "length": 27,
+                    "text": "O acabamento é bem simples.",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.97,
+                                "negative": 0.03
+                            },
+                            "offset": 171,
+                            "length": 10,
+                            "text": "acabamento",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/4/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.97,
+                                "negative": 0.03
+                            },
+                            "offset": 188,
+                            "length": 7,
+                            "text": "simples",
+                            "isNegated": false
+                        }
+                    ]
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
