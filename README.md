@@ -21,7 +21,6 @@ Demonstração de uma solução para análise de textos construído com Azure La
 4. [Considerações e Ideias de Projeto](#considerações-e-ideias-de-projeto)
 5. [IMPORTANTE: Limpeza](#importante-limpeza)
 6. [Como me encontrar](#como-me-encontrar)
-7. 
 
 # Resumo da Ferramenta para Análise de Sentimento
 
@@ -45,6 +44,7 @@ Você pode usar as capacidades de análise de imagem do Azure AI Language com um
 5. Após isso basta selecionar "Examinar + criar"
 
 Para acessar basta entrar na página do recurso de Linguagem [AQUI](https://language.cognitive.azure.com/home)
+
 Nos testes nós iremos utilizar o serviço **Analyze sentiment and mine opinions**.
 
 ![Analyze sentiment and mine opinions](passo%20a%20passo/7.png) 
@@ -66,7 +66,7 @@ Após ter feito todos esses passos está na hora de ver algo prático. Vamos com
 
 ### Teste "Avaliação de Estúdio em Curitiba 1":
 
-Nesse teste eu utilizei uma avaliação que encontrei no Booking a respeito de uma das minhas possíveis hospedagens quando viajar para a Cidade. 
+Nesse teste eu utilizei uma avaliação que encontrei no Booking a respeito de uma das minhas possíveis hospedagens quando viajar para a cidade de Curitiba. 
 
 ![Exemplo](passo%20a%20passo/13.png) 
 
@@ -122,8 +122,8 @@ Pensei em criar uma automação para coletar as avaliações dos pontos turísti
 
 - Hotel Serrat - 70% negativo
 	- Internet ruim - 4 avaliações
-	 - Quarto Sujo - 4 avaliações
-	  - Hotel Barato - 3 avaliações
+	- Quarto Sujo - 4 avaliações
+	- Hotel Barato - 3 avaliações
 
 Com certeza esse projeto irá agilizar o planejamento das minhas viagens, e utilizar o Language Studio da Azure irá agilizar o desenvolvimento da aplicação.
 
@@ -131,7 +131,6 @@ Com certeza esse projeto irá agilizar o planejamento das minhas viagens, e util
 
 Se você não pretende fazer mais exercícios, exclua quaisquer recursos que não precise mais para evitar custos desnecessários.
 
-Saiba mais: [Página do Azure AI Vision](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/03-image-analysis.html)
 
 # Como me encontrar
 
